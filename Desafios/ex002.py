@@ -1,0 +1,5 @@
+print("Olá, seja Bem-vindo ao programa de data de nascimento")
+dia = input("Em qual Dia você nasceu? ")
+mes = input("Em qual Mês você nasceu? ")
+ano = input("Em qual Ano você nasceu? ")
+print(f"Você nasceu no dia {dia} de {mes} de {ano}, Correto?")

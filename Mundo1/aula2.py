@@ -1,0 +1,8 @@
+v1 = input("Digite um valor: ")
+v2 = int(input("Digite um número inteiro: " ))
+v3 = float(input("Digite um número decimal: "))
+v4 = bool(input("Digite 1 para sim ou 0 para não: "))
+print(type(v1))
+print(type(v2))
+print(type(v3))
+print(type(v4))
