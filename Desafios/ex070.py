@@ -18,7 +18,7 @@ while (True):
     if (preço > 1000):
         mais1000 += 1
     while (resp != 's' and resp != 'n'):
-        resp = input('Quer continuar [S/N]: ')
+        resp = input('Quer continuar [S/N]: ').strip().lower()
     if (resp == 'n'):
         break
 print(f'O total da comprar foi R${total:.2f}')
